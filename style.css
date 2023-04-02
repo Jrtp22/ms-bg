@@ -1,16 +1,23 @@
+#main{
+    text-align: center;
+}
 #main-game{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
-    align-items: stretch;
-    align-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(3, auto) ;
     width: 75%;
+    padding: 0px 200px;
     
 }
 .divs{
-    width: 300px;
-    text-align: center;
+    width: 200px;
     border: 5px solid black;
-    line-height: 10;
+    font-family: 'Yatra One', cursive;
+    font-size: 4em;
+    height: 100px;
+    
+}
+button{
+    margin-top: 20px; ;
 }
