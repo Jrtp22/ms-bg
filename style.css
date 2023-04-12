@@ -35,4 +35,7 @@ button{
     margin-top: 20px; ;
     background-image: url("assets/tictacs.jpg") ;
     color: azure;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px;
 }
